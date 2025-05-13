@@ -1,5 +1,5 @@
 /**
- * Entry point for the program
+ * Main: Entry point for the program
  * A program that prints a String 10 times
  * @param args, command line arguments
  */
