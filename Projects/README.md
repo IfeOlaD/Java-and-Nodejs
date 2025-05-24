@@ -1,1 +1,0 @@
-A directory for projects to test my skills.
