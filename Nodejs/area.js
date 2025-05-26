@@ -3,4 +3,4 @@ var width = 12.8;
 
 var area = lenght * width;
 
-console.log(area);
+console.log(area.);
