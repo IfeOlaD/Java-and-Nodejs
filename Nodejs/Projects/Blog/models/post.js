@@ -15,7 +15,7 @@ const postSchema = new schema({
     image: {
 	type: String,
     },
-    username {
+    username: {
 	type: String,
 	required: true,
     },
