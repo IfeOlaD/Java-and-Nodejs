@@ -1,15 +1,15 @@
-const mongoose = require('mongoose');
-const chalk = require('chalk');
+import mongoose from 'mongoose';
+import chalk from 'chalk';
 const database = (async () => {
     try {
-	await mongoose.connect('mongodb://0.0.0.0:27017/Dark-Halo', {
+	await connect('mongodb://0.0.0.0:27017/Dark-Halo', {
 	useNewUrlParser: true,
-	useUnifiedTopology: true
+	useUnifiedTopology: true,
     });
-	console.log(chalk.blue('Database connected'));
+	console.log(blue('Database connected'));
     }
     catch (error) {
 	console.log(chalk.red(error));
     }
 })();
-module.exports = database;
+export default database;
